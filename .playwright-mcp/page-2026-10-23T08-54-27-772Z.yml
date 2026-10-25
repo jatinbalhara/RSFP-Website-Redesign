@@ -1,0 +1,140 @@
+- generic [active] [ref=f2e1]:
+  - link "Skip to content" [ref=f2e2] [cursor=pointer]:
+    - /url: "#main"
+  - note [ref=f2e3]:
+    - strong [ref=f2e4]: "Dev only · still placeholders:"
+    - text: Phone / WhatsApp number · Address and PIN code · FSSAI licence number · Jar and bottle sizes · Prices for Karela, Mango, Green Chilli, Kathal, Buransh, Jam and Petha · Email, opening hours, social links · Delivery and payment wording. Edit
+    - code [ref=f2e5]: site.config.ts
+    - text: .
+  - banner [ref=f2e6]:
+    - generic [ref=f2e8]:
+      - generic [ref=f2e9]: Handmade in small batches in Sanet, Himachal
+      - generic [ref=f2e10]:
+        - link "+91 98052 22182" [ref=f2e11] [cursor=pointer]:
+          - /url: tel:+919805222182
+        - link "WhatsApp" [ref=f2e14] [cursor=pointer]:
+          - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+    - generic [ref=f2e17]:
+      - link "RSFP Organic Himachal, home" [ref=f2e18] [cursor=pointer]:
+        - /url: /
+        - img "RSFP Organic Himachal" [ref=f2e19]
+      - navigation "Main" [ref=f2e20]:
+        - link "Shop" [ref=f2e21] [cursor=pointer]:
+          - /url: /shop
+        - link "Our story" [ref=f2e22] [cursor=pointer]:
+          - /url: /our-story
+        - link "Contact" [ref=f2e23] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=f2e24]:
+        - link "Ask Neelam ji" [ref=f2e25] [cursor=pointer]:
+          - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+        - link "Basket, 0 items" [ref=f2e29] [cursor=pointer]:
+          - /url: /basket
+          - generic [ref=f2e33]: Basket
+  - main [ref=f2e34]:
+    - generic [ref=f2e36]:
+      - generic [ref=f2e37]:
+        - paragraph [ref=f2e38]: Our story
+        - heading "Started as one woman's dream. Made by many hands." [level=1] [ref=f2e39]
+        - paragraph [ref=f2e40]: RS Food Products was started by Neelam Verma to share the pickles and sharbats of Himachal with homes beyond the hills.
+        - paragraph [ref=f2e41]: "Along the way it became something bigger: a way for women in Sanet, District Solan, to learn, earn and stand on their own feet. They cut, sun-dry, mix and fill every jar by hand, in small batches, the way it's always been done at home."
+        - paragraph [ref=f2e42]: You're not buying from a factory. You're buying from us. ✿
+      - figure "Climbing for buransh, every spring" [ref=f2e43]:
+        - img "Picking buransh flowers from a tall tree" [ref=f2e44]
+    - generic [ref=f2e47]:
+      - paragraph [ref=f2e48]: A day in the kitchen
+      - heading "Real hands, real jars, real daylight" [level=2] [ref=f2e49]
+      - generic [ref=f2e50]:
+        - figure "Masala mixed by hand, jar by jar" [ref=f2e51]:
+          - img "Masala mixed by hand and filled into jars" [ref=f2e52]
+        - figure "Sorting pahadi karela" [ref=f2e54]:
+          - img "Sorting and cleaning pahadi karela" [ref=f2e55]
+        - figure "Filling sharbat, one bottle at a time" [ref=f2e57]:
+          - img "Filling sharbat bottles" [ref=f2e58]
+        - figure "The big steel patilas" [ref=f2e60]:
+          - img "Steel vessels in the kitchen" [ref=f2e61]
+        - figure "Meeting people at the Zila Udyog mela" [ref=f2e63]:
+          - img "RSFP stall at a Zila Udyog fair" [ref=f2e64]
+    - generic [ref=f2e67]:
+      - paragraph [ref=f2e68]: What we care about
+      - heading "Three words we live by" [level=2] [ref=f2e69]
+      - generic [ref=f2e70]:
+        - generic [ref=f2e71]:
+          - paragraph [ref=f2e72]: अपनापन
+          - paragraph [ref=f2e73]: Apnapan · belonging
+          - paragraph [ref=f2e74]: We talk to you like family, because that's how this started.
+        - generic [ref=f2e75]:
+          - paragraph [ref=f2e76]: ईमानदारी
+          - paragraph [ref=f2e77]: Imaandari · honesty
+          - paragraph [ref=f2e78]: Real photos, real prices in rupees. We say what's in the jar and stop there.
+        - generic [ref=f2e79]:
+          - paragraph [ref=f2e80]: पहाड़ी
+          - paragraph [ref=f2e81]: Pahadi · of the hills
+          - paragraph [ref=f2e82]: Galgal, lingad, lasoda, buransh, chukh. Our ingredients are the story.
+    - generic [ref=f2e84]:
+      - paragraph [ref=f2e85]: The pahadi year
+      - heading "Everything has its season" [level=2] [ref=f2e86]
+      - list [ref=f2e87]:
+        - listitem [ref=f2e88]:
+          - strong [ref=f2e89]: Spring
+          - generic [ref=f2e90]: Buransh flowers are picked straight off the trees for sharbat.
+        - listitem [ref=f2e91]:
+          - strong [ref=f2e92]: Early summer
+          - generic [ref=f2e93]: Lasoda, for just a few weeks. Then raw mangoes.
+        - listitem [ref=f2e94]:
+          - strong [ref=f2e95]: Monsoon
+          - generic [ref=f2e96]: Lingad (fiddlehead fern) is foraged from the damp hillsides.
+        - listitem [ref=f2e97]:
+          - strong [ref=f2e98]: Winter
+          - generic [ref=f2e99]: Galgal goes out on the rooftop to sun-dry and slowly age.
+      - paragraph [ref=f2e100]: When it's gone, it's gone until next year.
+    - generic [ref=f2e102]:
+      - heading "Meet the makers" [level=2] [ref=f2e103]
+      - paragraph [ref=f2e104]: Photos of each of us with the pickle we're best at are coming soon. Until then, the quickest way to meet us is to say hello.
+      - paragraph [ref=f2e105]:
+        - link "Say namaste on WhatsApp" [ref=f2e106] [cursor=pointer]:
+          - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+        - link "Browse the shelf" [ref=f2e109] [cursor=pointer]:
+          - /url: /shop
+  - contentinfo [ref=f2e110]:
+    - generic [ref=f2e111]:
+      - generic [ref=f2e112]:
+        - img "RSFP Organic Himachal" [ref=f2e114]
+        - paragraph [ref=f2e115]: Packed with love in Sanet ✿
+      - generic [ref=f2e116]:
+        - heading "Talk to us" [level=2] [ref=f2e117]
+        - list [ref=f2e118]:
+          - listitem [ref=f2e119]:
+            - link "WhatsApp +91 98052 22182" [ref=f2e120] [cursor=pointer]:
+              - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+          - listitem [ref=f2e123]:
+            - link "Call +91 98052 22182" [ref=f2e124] [cursor=pointer]:
+              - /url: tel:+919805222182
+          - listitem [ref=f2e127]: Mon–Sat, 9 am – 7 pm
+      - generic [ref=f2e128]:
+        - heading "Find us" [level=2] [ref=f2e129]
+        - generic [ref=f2e130]: RS Food ProductsVillage Sanet, P.O. MamlighDistrict Solan, Himachal Pradesh
+      - generic [ref=f2e131]:
+        - heading "Browse" [level=2] [ref=f2e132]
+        - list [ref=f2e133]:
+          - listitem [ref=f2e134]:
+            - link "All products" [ref=f2e135] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=f2e136]:
+            - link "Pickles" [ref=f2e137] [cursor=pointer]:
+              - /url: /shop?c=pickles
+          - listitem [ref=f2e138]:
+            - link "Squash & sharbat" [ref=f2e139] [cursor=pointer]:
+              - /url: /shop?c=sharbat
+          - listitem [ref=f2e140]:
+            - link "Our story" [ref=f2e141] [cursor=pointer]:
+              - /url: /our-story
+          - listitem [ref=f2e142]:
+            - link "Contact" [ref=f2e143] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=f2e144]:
+      - generic [ref=f2e145]: FSSAI Lic. No. 10018022008334
+      - generic [ref=f2e146]: © 2026 RS Food Products. Made by Neelam Verma & the women of Sanet.
+  - link "Chat with Neelam ji on WhatsApp" [ref=f2e147] [cursor=pointer]:
+    - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+  - button "Open Next.js Dev Tools" [ref=f2e155] [cursor=pointer]

@@ -1,0 +1,137 @@
+<title>RSFP Product Catalog</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Mukta:wght@400;600;700&family=Kalam:wght@400&display=swap">
+<style>
+/* Layout: a shop shelf. Category chips up top, then an even grid of jars on khadi paper, each card a label you could stick on a jar. */
+:root{
+  --khadi:#FBF6EA; --khadi-deep:#F2E9D3; --card:#FFFDF7;
+  --lid:#0C612D; --leaf:#81AB49; --haldi:#E3A21A; --mirch:#B5321F;
+  --ink:#2A2117; --ink-soft:#5E5142; --rule:#DED2B8; --on-lid:#FBF6EA;
+  --display:"Rozha One","Tiro Devanagari Hindi",Georgia,serif;
+  --body:"Mukta","Noto Sans Devanagari",system-ui,sans-serif;
+  --hand:"Kalam","Segoe Print",cursive;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+body{background:var(--khadi);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.55;margin:0}
+img{max-width:100%;display:block}
+.wrap{max-width:1180px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+header{padding-block:36px 20px}
+.top{display:flex;flex-wrap:wrap;gap:20px;align-items:center;justify-content:space-between}
+.brand{display:flex;gap:18px;align-items:center}
+.brand img{width:110px}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(36px,6vw,62px);line-height:1.05;color:var(--lid);margin:0;text-wrap:balance}
+.sub{color:var(--ink-soft);max-width:60ch;margin:10px 0 0}
+.contact{background:var(--lid);color:var(--on-lid);border-radius:14px;padding:14px 18px;font-size:15px;line-height:1.45}
+.contact b{font-size:20px;display:block;letter-spacing:.02em;user-select:all}
+.contact small{color:#DDEBC4}
+.bar{position:sticky;top:env(safe-area-inset-top,0px);background:var(--khadi);z-index:5;padding-block:12px;border-bottom:1px solid var(--rule)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--khadi)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{font:inherit;font-size:15px;font-weight:600;border:1.5px solid var(--lid);background:transparent;color:var(--lid);border-radius:999px;padding:6px 16px;cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--lid);color:var(--on-lid)}
+.chip:focus-visible,.order:focus-visible{outline:3px solid var(--haldi);outline-offset:2px}
+.count{margin-left:auto;font-size:14px;color:var(--ink-soft)}
+.toggle{display:flex;align-items:center;gap:6px;font-size:14px;color:var(--ink-soft)}
+main{padding-block:28px 60px}
+.cat-h{font-family:var(--display);font-weight:400;font-size:32px;color:var(--ink);margin:30px 0 4px;display:flex;align-items:baseline;gap:12px}
+.cat-h span{font-family:var(--body);font-size:15px;color:var(--ink-soft)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:22px;margin-top:14px}
+.card{background:var(--card);border:1px solid var(--rule);border-radius:16px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+.ph{position:relative;background:#F7EFE2}
+.ph img{aspect-ratio:1;object-fit:cover;width:100%}
+.tag{position:absolute;left:12px;top:12px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:3px 10px;border-radius:999px}
+.tag.new{background:var(--haldi);color:var(--ink)}
+.tag.ai{background:var(--ink);color:var(--khadi);left:auto;right:12px}
+.body{padding:16px 18px 18px;display:flex;flex-direction:column;gap:8px;flex:1}
+.nm{font-family:var(--display);font-size:25px;line-height:1.1;color:var(--lid)}
+.hi{font-size:16px;color:var(--ink-soft);margin-top:-4px}
+.desc{font-size:15.5px;margin:0}
+dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:4px 0 0;font-size:14px}
+dt{color:var(--ink-soft)}
+dd{margin:0}
+.foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:auto;padding-top:10px;border-top:1px dashed var(--rule);flex-wrap:wrap}
+.price{font-variant-numeric:tabular-nums;font-weight:700;font-size:20px}
+.price s{font-weight:400;font-size:15px;color:var(--ink-soft);margin-left:6px}
+.price .tbc{font-weight:600;font-size:15px;color:var(--mirch)}
+.order{display:inline-flex;align-items:center;gap:6px;background:var(--lid);color:var(--on-lid);border-radius:999px;padding:7px 14px;font-weight:600;font-size:14.5px;text-decoration:none}
+.notes{margin-top:40px;background:var(--khadi-deep);border-radius:16px;padding:22px 24px}
+.notes h2{font-family:var(--display);font-weight:400;font-size:26px;margin:0 0 8px;color:var(--ink)}
+.notes ul{margin:0;padding-left:20px;font-size:15.5px}
+.hand{font-family:var(--hand);color:var(--lid);font-size:19px}
+@media (max-width:520px){.count{margin-left:0;width:100%}}
+</style>
+
+<header>
+  <div class="wrap top">
+    <div style="min-width:0">
+      <div class="brand"><img src="assets/logo.png" alt="RSFP Organic Himachal logo"></div>
+      <h1>Our pickles, sharbats and sweets</h1>
+      <p class="sub">Everything RS Food Products makes in Sanet, Himachal Pradesh, with the refined photos, one spelling for each name, and the prices from the current website.</p>
+    </div>
+    <div class="contact">To order, WhatsApp or call<b>98052 22182</b><small>Number from the product posters. Please confirm.</small></div>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap chips" id="chips" role="toolbar" aria-label="Filter products"></div>
+</div>
+
+<main class="wrap">
+  <div id="shelves"></div>
+  <section class="notes">
+    <h2>About this catalog</h2>
+    <ul>
+      <li><b>Prices</b> are the regular and sale prices from the current website. The site shows them with a "$" sign, but they are clearly rupee amounts. "Price to confirm" means the site has no price.</li>
+      <li><b>Sizes</b> aren't readable on the photos. Please fill them in (for example 500 g jar, 750 ml bottle).</li>
+      <li><b>"Not on website yet"</b> marks products in the brand-asset photos that the current site doesn't sell.</li>
+      <li><b>"AI photo"</b> marks the two products that only have an AI image. They need a real photo.</li>
+      <li>The green-wrapped sweets in the brand photos aren't listed, because we don't know their name. Tell us and we'll add them.</li>
+      <li>The same data is in <code>products.json</code> and <code>products.csv</code>, ready to load into Supabase later.</li>
+    </ul>
+    <p class="hand" style="margin-top:12px">Descriptions avoid health claims on purpose. See the brand book.</p>
+  </div>
+</main>
+
+<script>
+const PRODUCTS = [{"slug": "amla-pickle", "name": "Jangli Amla Pickle", "name_hi": "जंगली आंवला अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": 200, "sale_inr": 165, "size": "TBC", "photo_type": "real", "image": "assets/products/amla-pickle.webp", "image_full": "../Product Images/refined/amla-pickle/amla-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/amla-pickle.webp", "description": "Small wild amlas from the hills, cut by hand and left to soak up mustard oil and masala until they turn soft and golden.", "taste": "Sour, warm, a little bitter", "pairs_with": "Dal-chawal, khichdi, curd rice"}, {"slug": "galgal-pickle", "name": "Galgal Pickle", "name_hi": "गलगल का अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": 100, "sale_inr": 99, "size": "TBC", "photo_type": "real", "image": "assets/products/galgal-pickle.webp", "image_full": "../Product Images/refined/galgal-pickle/galgal-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/galgal-pickle.webp", "description": "Galgal is the big pahadi hill lemon. We sun-dry it and age it slowly, the way every Himachali home does in winter.", "taste": "Very tangy, spicy, a little sweet", "pairs_with": "Parathas, makki ki roti, dal"}, {"slug": "garlic-pickle", "name": "Garlic Pickle", "name_hi": "लहसुन का अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "TBC", "photo_type": "real", "image": "assets/products/garlic-pickle.webp", "image_full": "../Product Images/refined/garlic-pickle/garlic-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/garlic-pickle.webp", "description": "Whole pahadi garlic cloves, peeled by hand and slow-aged in mustard oil and spices.", "taste": "Bold, pungent, spicy", "pairs_with": "Rajma-chawal, aloo parathas, plain rotis"}, {"slug": "green-chukh", "name": "Green Chukh", "name_hi": "हरा चुख", "category": "Pickles", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "TBC", "photo_type": "real", "image": "assets/products/green-chukh.webp", "image_full": "../Product Images/refined/green-chukh/green-chukh-1200.jpg", "lifestyle_image": "assets/lifestyle/green-chukh.webp", "description": "Chukh is Himachal's own green chilli relish: fresh chillies cooked down with galgal juice, ginger, garlic and roasted hill spices.", "taste": "Hot, citrusy, smoky", "pairs_with": "Siddu, momos, pakoras, anything that needs a kick"}, {"slug": "lasoda-pickle", "name": "Lasoda Pickle", "name_hi": "लसोड़े का अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "TBC", "photo_type": "real", "image": "assets/products/lasoda-pickle.webp", "image_full": "../Product Images/refined/lasoda-pickle/lasoda-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/lasoda-pickle.webp", "description": "Lasoda (also called gunda or lasoora) is picked for only a few weeks in early summer. Made in steel vessels, sun-dried and hand-mixed.", "taste": "Chunky, oily, tart", "pairs_with": "Rotis, puris, travel lunches"}, {"slug": "lemon-pickle", "name": "Lemon Pickle", "name_hi": "नींबू का अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": 200, "sale_inr": 155, "size": "TBC", "photo_type": "real", "image": "assets/products/lemon-pickle.webp", "image_full": "../Product Images/refined/lemon-pickle/lemon-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/lemon-pickle.webp", "description": "Himalayan lemons, sun-dried and fermented with pure spices until the peel turns tender.", "taste": "Tangy, sweet, spicy", "pairs_with": "Parathas, dal-chawal, upset tummies"}, {"slug": "lingad-pickle", "name": "Lingad Pickle", "name_hi": "लिंगड़ का अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "TBC", "photo_type": "real", "image": "assets/products/lingad-pickle.webp", "image_full": "../Product Images/refined/lingad-pickle/lingad-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/lingad-pickle.webp", "description": "Lingad is the wild fiddlehead fern that grows by mountain streams in the monsoon. Foraged, cleaned and pickled the old way.", "taste": "Earthy, crunchy, mildly spicy", "pairs_with": "Rotis, rice, as a side with any sabzi"}, {"slug": "mixed-pickle", "name": "Mixed Pickle", "name_hi": "मिक्स अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": 200, "sale_inr": 145, "size": "TBC", "photo_type": "ai-only", "image": "assets/products/mixed-pickle.webp", "image_full": null, "lifestyle_image": "assets/lifestyle/mixed-pickle.webp", "description": "Carrots, mango, lemon and green chilli, chopped fresh, sun-cured and aged in mustard oil. No two jars are ever exactly the same.", "taste": "Tangy, spicy, all-rounder", "pairs_with": "Everything, honestly"}, {"slug": "mushroom-pickle", "name": "Mushroom Pickle", "name_hi": "मशरूम का अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "TBC", "photo_type": "real", "image": "assets/products/mushroom-pickle.webp", "image_full": "../Product Images/refined/mushroom-pickle/mushroom-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/mushroom-pickle.webp", "description": "Fresh mushrooms cooked and preserved in mustard oil and pahadi masala. A favourite with people who don't usually like pickles.", "taste": "Savoury, mild, umami", "pairs_with": "Parathas, sandwiches, fried rice"}, {"slug": "pahadi-karela-pickle", "name": "Pahadi Karela Pickle", "name_hi": "पहाड़ी करेला अचार", "category": "Pickles", "on_current_site": true, "mrp_inr": null, "sale_inr": null, "size": "TBC", "photo_type": "real", "image": "assets/products/pahadi-karela-pickle.webp", "image_full": "../Product Images/refined/pahadi-karela-pickle/pahadi-karela-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/pahadi-karela-pickle.webp", "description": "Small hill-grown karelas, cleaned and cut by hand (you can see the ladies doing it in our photos) and pickled with mustard oil.", "taste": "Bitter, spicy, tangy", "pairs_with": "Dal-chawal, khichdi"}, {"slug": "mango-pickle", "name": "Mango Pickle", "name_hi": "आम का अचार", "category": "Pickles", "on_current_site": false, "mrp_inr": null, "sale_inr": null, "size": "TBC", "photo_type": "real", "image": "assets/products/mango-pickle.webp", "image_full": "../Product Images/refined/mango-pickle/mango-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/mango-pickle.webp", "description": "The classic. Raw mango pieces in mustard oil with fennel, fenugreek and red chilli.", "taste": "Sour, spicy, familiar", "pairs_with": "Everything"}, {"slug": "green-chilli-pickle", "name": "Green Chilli Pickle", "name_hi": "हरी मिर्च का अचार", "category": "Pickles", "on_current_site": false, "mrp_inr": null, "sale_inr": null, "size": "TBC", "photo_type": "real", "image": "assets/products/green-chilli-pickle.webp", "image_full": "../Product Images/refined/green-chilli-pickle/green-chilli-pickle-1200.jpg", "lifestyle_image": null, "description": "Whole green chillies stuffed and soaked in mustard oil and masala.", "taste": "Hot, sharp", "pairs_with": "Parathas, dal"}, {"slug": "kathal-pickle", "name": "Kathal Pickle", "name_hi": "कटहल का अचार", "category": "Pickles", "on_current_site": false, "mrp_inr": null, "sale_inr": null, "size": "TBC", "photo_type": "real", "image": "assets/products/kathal-pickle.webp", "image_full": "../Product Images/refined/kathal-pickle/kathal-pickle-1200.jpg", "lifestyle_image": "assets/lifestyle/kathal-pickle.webp", "description": "Young jackfruit pieces pickled until they turn meaty and soft.", "taste": "Rich, savoury, spicy", "pairs_with": "Rotis, pulao"}, {"slug": "brahmi-squash", "name": "Brahmi Sharbat", "name_hi": "ब्राह्मी शरबत", "category": "Squash & Sharbat", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "TBC", "photo_type": "real", "image": "assets/products/brahmi-squash.webp", "image_full": "../Product Images/refined/brahmi-squash/brahmi-squash-1200.jpg", "lifestyle_image": null, "description": "A cooling herbal sharbat made from brahmi leaves, the herb grandmothers swear by before exams.", "taste": "Herbal, sweet, cooling", "pairs_with": "Cold water, summer afternoons"}, {"slug": "buransh-sharbat", "name": "Buransh Sharbat", "name_hi": "बुरांश शरबत", "category": "Squash & Sharbat", "on_current_site": false, "mrp_inr": null, "sale_inr": null, "size": "TBC", "photo_type": "real", "image": "assets/products/buransh-sharbat.webp", "image_full": "../Product Images/refined/buransh-sharbat/buransh-sharbat-1200.jpg", "lifestyle_image": null, "description": "Made from red rhododendron (buransh) flowers that our team picks straight from the trees every spring.", "taste": "Floral, sweet-tart, deep red", "pairs_with": "Chilled water, guests at the door"}, {"slug": "rose-squash", "name": "Rose Squash", "name_hi": "रोज़ शरबत", "category": "Squash & Sharbat", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "750 ml (per poster)", "photo_type": "real", "image": "assets/products/rose-squash.webp", "image_full": "../Product Images/refined/rose-squash/rose-squash-1200.jpg", "lifestyle_image": "assets/lifestyle/rose-squash.webp", "description": "Rose sharbat made with real rose extract. Pour a little in cold water or milk.", "taste": "Floral, sweet", "pairs_with": "Cold milk, falooda, summer"}, {"slug": "orange-squash", "name": "Orange Squash", "name_hi": "ऑरेंज स्क्वैश", "category": "Squash & Sharbat", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "TBC", "photo_type": "real", "image": "assets/products/orange-squash.webp", "image_full": "../Product Images/refined/orange-squash/orange-squash-1200.jpg", "lifestyle_image": "assets/lifestyle/orange-squash.webp", "description": "Orange squash for hot days. Dilute one part with four parts cold water.", "taste": "Citrus, sweet", "pairs_with": "Cold water, kids' tiffins"}, {"slug": "lemon-squash", "name": "Lemon Squash", "name_hi": "लेमन स्क्वैश", "category": "Squash & Sharbat", "on_current_site": true, "mrp_inr": 250, "sale_inr": 225, "size": "TBC", "photo_type": "ai-only", "image": "assets/products/lemon-squash.webp", "image_full": null, "lifestyle_image": "assets/lifestyle/lemon-squash.webp", "description": "Fresh lemon juice squash, the quick nimbu-paani for when guests arrive.", "taste": "Tangy, sweet", "pairs_with": "Cold water, soda"}, {"slug": "mixed-fruit-jam", "name": "Mixed Fruit Jam", "name_hi": "मिक्स फ्रूट जैम", "category": "Sweet Things", "on_current_site": false, "mrp_inr": null, "sale_inr": null, "size": "TBC", "photo_type": "real", "image": "assets/products/mixed-fruit-jam.webp", "image_full": "../Product Images/refined/mixed-fruit-jam/mixed-fruit-jam-1200.jpg", "lifestyle_image": "assets/lifestyle/mixed-fruit-jam.webp", "description": "Thick, fruity jam made in small batches.", "taste": "Sweet, fruity", "pairs_with": "Toast, rotis, kids' tiffins"}, {"slug": "milky-dry-petha", "name": "Milky & Dry Petha", "name_hi": "मिल्की ड्राई पेठा", "category": "Sweet Things", "on_current_site": false, "mrp_inr": null, "sale_inr": null, "size": "TBC", "photo_type": "real", "image": "assets/products/milky-dry-petha.webp", "image_full": "../Product Images/refined/milky-dry-petha/milky-dry-petha-1200.jpg", "lifestyle_image": null, "description": "Soft dry petha in a sealed pack, the travel sweet.", "taste": "Sweet, soft", "pairs_with": "Tea time, gifting"}];
+const PHONE = "919805222182";
+const cats = ["All", ...new Set(PRODUCTS.map(p => p.category))];
+let current = "All";
+try { const h = decodeURIComponent(location.hash.slice(1)); if (h) { const m = cats.find(c => slug(c) === h); if (m) current = m; } } catch (e) {}
+function slug(s){ return s.toLowerCase().replace(/[^a-z]+/g,"-").replace(/^-|-$/g,""); }
+function esc(s){ return String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c])); }
+function priceHtml(p){
+  if (p.mrp_inr == null) return '<span class="tbc">Price to confirm</span>';
+  const sale = p.sale_inr != null && p.sale_inr < p.mrp_inr;
+  return sale ? `₹${p.sale_inr}<s>₹${p.mrp_inr}</s>` : `₹${p.mrp_inr}`;
+}
+function card(p){
+  const msg = encodeURIComponent(`Namaste! I'd like to order ${p.name} (${p.name_hi}).`);
+  return `<article class="card">
+    <div class="ph"><img loading="lazy" src="${esc(p.image)}" alt="${esc(p.name)} jar">
+      ${p.on_current_site ? "" : '<span class="tag new">Not on website yet</span>'}
+      ${p.photo_type === "ai-only" ? '<span class="tag ai">AI photo</span>' : ""}</div>
+    <div class="body">
+      <div class="nm">${esc(p.name)}</div>
+      <div class="hi" lang="hi">${esc(p.name_hi)}</div>
+      <p class="desc">${esc(p.description)}</p>
+      <dl><dt>Taste</dt><dd>${esc(p.taste)}</dd><dt>Eat with</dt><dd>${esc(p.pairs_with)}</dd><dt>Size</dt><dd>${esc(p.size)}</dd></dl>
+      <div class="foot"><span class="price">${priceHtml(p)}</span>
+        <a class="order" href="https://wa.me/${PHONE}?text=${msg}" target="_blank" rel="noopener">Order on WhatsApp</a></div>
+    </div></article>`;
+}
+function render(){
+  const chips = document.getElementById("chips");
+  chips.innerHTML = cats.map(c => `<button class="chip" type="button" id="chip-${slug(c)}" aria-pressed="${c===current}" data-c="${esc(c)}">${esc(c)}</button>`).join("")
+    + `<span class="count">${PRODUCTS.filter(p => current==="All"||p.category===current).length} products</span>`;
+  chips.querySelectorAll(".chip").forEach(b => b.onclick = () => { current = b.dataset.c; try { history.replaceState(null,"","#"+slug(current)); } catch(e){} render(); });
+  const shown = cats.slice(1).filter(c => current==="All" || c===current);
+  document.getElementById("shelves").innerHTML = shown.map(c => {
+    const list = PRODUCTS.filter(p => p.category === c);
+    return `<h2 class="cat-h" id="${slug(c)}">${esc(c)} <span>${list.length}</span></h2><div class="grid">${list.map(card).join("")}</div>`;
+  }).join("");
+}
+render();
+</script>

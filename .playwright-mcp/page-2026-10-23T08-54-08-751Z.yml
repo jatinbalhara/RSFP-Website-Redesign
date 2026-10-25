@@ -1,0 +1,410 @@
+- generic [active] [ref=e1]:
+  - link "Skip to content" [ref=e2] [cursor=pointer]:
+    - /url: "#main"
+  - note [ref=e3]:
+    - strong [ref=e4]: "Dev only · still placeholders:"
+    - text: Phone / WhatsApp number · Address and PIN code · FSSAI licence number · Jar and bottle sizes · Prices for Karela, Mango, Green Chilli, Kathal, Buransh, Jam and Petha · Email, opening hours, social links · Delivery and payment wording. Edit
+    - code [ref=e5]: site.config.ts
+    - text: .
+  - banner [ref=e6]:
+    - generic [ref=e8]:
+      - generic [ref=e9]: Handmade in small batches in Sanet, Himachal
+      - generic [ref=e10]:
+        - link "+91 98052 22182" [ref=e11] [cursor=pointer]:
+          - /url: tel:+919805222182
+        - link "WhatsApp" [ref=e14] [cursor=pointer]:
+          - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+    - generic [ref=e17]:
+      - link "RSFP Organic Himachal, home" [ref=e18] [cursor=pointer]:
+        - /url: /
+        - img "RSFP Organic Himachal" [ref=e19]
+      - navigation "Main" [ref=e20]:
+        - link "Shop" [ref=e21] [cursor=pointer]:
+          - /url: /shop
+        - link "Our story" [ref=e22] [cursor=pointer]:
+          - /url: /our-story
+        - link "Contact" [ref=e23] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e24]:
+        - link "Ask Neelam ji" [ref=e25] [cursor=pointer]:
+          - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+        - link "Basket, 0 items" [ref=e29] [cursor=pointer]:
+          - /url: /basket
+          - generic [ref=e33]: Basket
+  - main [ref=e34]:
+    - generic [ref=e36]:
+      - paragraph [ref=e37]: The shelf
+      - heading "Everything we make" [level=1] [ref=e38]
+      - paragraph [ref=e39]: Every jar is made in small batches, so some things run out until next season. If you can't find something, just ask.
+      - navigation "Filter by category" [ref=e40]:
+        - link "All 20" [ref=e41] [cursor=pointer]:
+          - /url: /shop
+        - link "Pickles 13" [ref=e42] [cursor=pointer]:
+          - /url: /shop?c=pickles
+        - link "Squash & Sharbat 5" [ref=e43] [cursor=pointer]:
+          - /url: /shop?c=sharbat
+        - link "Sweet Things 2" [ref=e44] [cursor=pointer]:
+          - /url: /shop?c=sweets
+      - generic [ref=e45]:
+        - article [ref=e46]:
+          - link [ref=e47] [cursor=pointer]:
+            - /url: /shop/amla-pickle
+            - img "Jangli Amla Pickle jar" [ref=e48]
+          - generic [ref=e49]:
+            - heading [level=3] [ref=e50]:
+              - link "Jangli Amla Pickle" [ref=e51] [cursor=pointer]:
+                - /url: /shop/amla-pickle
+            - paragraph [ref=e52]: जंगली आंवला अचार
+            - paragraph [ref=e53]: Sour, warm, a little bitter
+            - generic [ref=e54]:
+              - generic [ref=e55]: ₹165₹200
+              - generic [ref=e56]:
+                - button "Add to basket" [ref=e57] [cursor=pointer]
+                - link "Ask about Jangli Amla Pickle on WhatsApp" [ref=e58] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Jangli%20Amla%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e61]:
+          - link [ref=e62] [cursor=pointer]:
+            - /url: /shop/galgal-pickle
+            - img "Galgal Pickle jar" [ref=e63]
+          - generic [ref=e64]:
+            - heading [level=3] [ref=e65]:
+              - link "Galgal Pickle" [ref=e66] [cursor=pointer]:
+                - /url: /shop/galgal-pickle
+            - paragraph [ref=e67]: गलगल का अचार
+            - paragraph [ref=e68]: Very tangy, spicy, a little sweet
+            - generic [ref=e69]:
+              - generic [ref=e70]: ₹99₹100
+              - generic [ref=e71]:
+                - button "Add to basket" [ref=e72] [cursor=pointer]
+                - link "Ask about Galgal Pickle on WhatsApp" [ref=e73] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Galgal%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e76]:
+          - link [ref=e77] [cursor=pointer]:
+            - /url: /shop/garlic-pickle
+            - img "Garlic Pickle jar" [ref=e78]
+          - generic [ref=e79]:
+            - heading [level=3] [ref=e80]:
+              - link "Garlic Pickle" [ref=e81] [cursor=pointer]:
+                - /url: /shop/garlic-pickle
+            - paragraph [ref=e82]: लहसुन का अचार
+            - paragraph [ref=e83]: Bold, pungent, spicy
+            - generic [ref=e84]:
+              - generic [ref=e85]: ₹225₹250
+              - generic [ref=e86]:
+                - button "Add to basket" [ref=e87] [cursor=pointer]
+                - link "Ask about Garlic Pickle on WhatsApp" [ref=e88] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Garlic%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e91]:
+          - link [ref=e92] [cursor=pointer]:
+            - /url: /shop/green-chukh
+            - img "Green Chukh jar" [ref=e93]
+          - generic [ref=e94]:
+            - heading [level=3] [ref=e95]:
+              - link "Green Chukh" [ref=e96] [cursor=pointer]:
+                - /url: /shop/green-chukh
+            - paragraph [ref=e97]: हरा चुख
+            - paragraph [ref=e98]: Hot, citrusy, smoky
+            - generic [ref=e99]:
+              - generic [ref=e100]: ₹225₹250
+              - generic [ref=e101]:
+                - button "Add to basket" [ref=e102] [cursor=pointer]
+                - link "Ask about Green Chukh on WhatsApp" [ref=e103] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Green%20Chukh.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e106]:
+          - link [ref=e107] [cursor=pointer]:
+            - /url: /shop/lasoda-pickle
+            - img "Lasoda Pickle jar" [ref=e108]
+          - generic [ref=e109]:
+            - heading [level=3] [ref=e110]:
+              - link "Lasoda Pickle" [ref=e111] [cursor=pointer]:
+                - /url: /shop/lasoda-pickle
+            - paragraph [ref=e112]: लसोड़े का अचार
+            - paragraph [ref=e113]: Chunky, oily, tart
+            - generic [ref=e114]:
+              - generic [ref=e115]: ₹225₹250
+              - generic [ref=e116]:
+                - button "Add to basket" [ref=e117] [cursor=pointer]
+                - link "Ask about Lasoda Pickle on WhatsApp" [ref=e118] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Lasoda%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e121]:
+          - link [ref=e122] [cursor=pointer]:
+            - /url: /shop/lemon-pickle
+            - img "Lemon Pickle jar" [ref=e123]
+          - generic [ref=e124]:
+            - heading [level=3] [ref=e125]:
+              - link "Lemon Pickle" [ref=e126] [cursor=pointer]:
+                - /url: /shop/lemon-pickle
+            - paragraph [ref=e127]: नींबू का अचार
+            - paragraph [ref=e128]: Tangy, sweet, spicy
+            - generic [ref=e129]:
+              - generic [ref=e130]: ₹155₹200
+              - generic [ref=e131]:
+                - button "Add to basket" [ref=e132] [cursor=pointer]
+                - link "Ask about Lemon Pickle on WhatsApp" [ref=e133] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Lemon%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e136]:
+          - link [ref=e137] [cursor=pointer]:
+            - /url: /shop/lingad-pickle
+            - img "Lingad Pickle jar" [ref=e138]
+          - generic [ref=e139]:
+            - heading [level=3] [ref=e140]:
+              - link "Lingad Pickle" [ref=e141] [cursor=pointer]:
+                - /url: /shop/lingad-pickle
+            - paragraph [ref=e142]: लिंगड़ का अचार
+            - paragraph [ref=e143]: Earthy, crunchy, mildly spicy
+            - generic [ref=e144]:
+              - generic [ref=e145]: ₹225₹250
+              - generic [ref=e146]:
+                - button "Add to basket" [ref=e147] [cursor=pointer]
+                - link "Ask about Lingad Pickle on WhatsApp" [ref=e148] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Lingad%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e151]:
+          - link [ref=e152] [cursor=pointer]:
+            - /url: /shop/mixed-pickle
+            - img "Mixed Pickle jar" [ref=e153]
+          - generic [ref=e154]:
+            - heading [level=3] [ref=e155]:
+              - link "Mixed Pickle" [ref=e156] [cursor=pointer]:
+                - /url: /shop/mixed-pickle
+            - paragraph [ref=e157]: मिक्स अचार
+            - paragraph [ref=e158]: Tangy, spicy, all-rounder
+            - generic [ref=e159]:
+              - generic [ref=e160]: ₹145₹200
+              - generic [ref=e161]:
+                - button "Add to basket" [ref=e162] [cursor=pointer]
+                - link "Ask about Mixed Pickle on WhatsApp" [ref=e163] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Mixed%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e166]:
+          - link [ref=e167] [cursor=pointer]:
+            - /url: /shop/mushroom-pickle
+            - img "Mushroom Pickle jar" [ref=e168]
+          - generic [ref=e169]:
+            - heading [level=3] [ref=e170]:
+              - link "Mushroom Pickle" [ref=e171] [cursor=pointer]:
+                - /url: /shop/mushroom-pickle
+            - paragraph [ref=e172]: मशरूम का अचार
+            - paragraph [ref=e173]: Savoury, mild, umami
+            - generic [ref=e174]:
+              - generic [ref=e175]: ₹225₹250
+              - generic [ref=e176]:
+                - button "Add to basket" [ref=e177] [cursor=pointer]
+                - link "Ask about Mushroom Pickle on WhatsApp" [ref=e178] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Mushroom%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e181]:
+          - link [ref=e182] [cursor=pointer]:
+            - /url: /shop/pahadi-karela-pickle
+            - img "Pahadi Karela Pickle jar" [ref=e183]
+          - generic [ref=e184]:
+            - heading [level=3] [ref=e185]:
+              - link "Pahadi Karela Pickle" [ref=e186] [cursor=pointer]:
+                - /url: /shop/pahadi-karela-pickle
+            - paragraph [ref=e187]: पहाड़ी करेला अचार
+            - paragraph [ref=e188]: Bitter, spicy, tangy
+            - generic [ref=e189]:
+              - generic [ref=e190]: Price on WhatsApp
+              - generic [ref=e191]:
+                - button "Add to basket" [ref=e192] [cursor=pointer]
+                - link "Ask about Pahadi Karela Pickle on WhatsApp" [ref=e193] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Pahadi%20Karela%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e196]:
+          - link [ref=e197] [cursor=pointer]:
+            - /url: /shop/mango-pickle
+            - img "Mango Pickle jar" [ref=e198]
+          - generic [ref=e199]:
+            - heading [level=3] [ref=e200]:
+              - link "Mango Pickle" [ref=e201] [cursor=pointer]:
+                - /url: /shop/mango-pickle
+            - paragraph [ref=e202]: आम का अचार
+            - paragraph [ref=e203]: Sour, spicy, familiar
+            - generic [ref=e204]:
+              - generic [ref=e205]: Price on WhatsApp
+              - generic [ref=e206]:
+                - button "Add to basket" [ref=e207] [cursor=pointer]
+                - link "Ask about Mango Pickle on WhatsApp" [ref=e208] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Mango%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e211]:
+          - link [ref=e212] [cursor=pointer]:
+            - /url: /shop/green-chilli-pickle
+            - img "Green Chilli Pickle jar" [ref=e213]
+          - generic [ref=e214]:
+            - heading [level=3] [ref=e215]:
+              - link "Green Chilli Pickle" [ref=e216] [cursor=pointer]:
+                - /url: /shop/green-chilli-pickle
+            - paragraph [ref=e217]: हरी मिर्च का अचार
+            - paragraph [ref=e218]: Hot, sharp
+            - generic [ref=e219]:
+              - generic [ref=e220]: Price on WhatsApp
+              - generic [ref=e221]:
+                - button "Add to basket" [ref=e222] [cursor=pointer]
+                - link "Ask about Green Chilli Pickle on WhatsApp" [ref=e223] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Green%20Chilli%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e226]:
+          - link [ref=e227] [cursor=pointer]:
+            - /url: /shop/kathal-pickle
+            - img "Kathal Pickle jar" [ref=e228]
+          - generic [ref=e229]:
+            - heading [level=3] [ref=e230]:
+              - link "Kathal Pickle" [ref=e231] [cursor=pointer]:
+                - /url: /shop/kathal-pickle
+            - paragraph [ref=e232]: कटहल का अचार
+            - paragraph [ref=e233]: Rich, savoury, spicy
+            - generic [ref=e234]:
+              - generic [ref=e235]: Price on WhatsApp
+              - generic [ref=e236]:
+                - button "Add to basket" [ref=e237] [cursor=pointer]
+                - link "Ask about Kathal Pickle on WhatsApp" [ref=e238] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Kathal%20Pickle.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e241]:
+          - link [ref=e242] [cursor=pointer]:
+            - /url: /shop/brahmi-squash
+            - img "Brahmi Sharbat jar" [ref=e243]
+          - generic [ref=e244]:
+            - heading [level=3] [ref=e245]:
+              - link "Brahmi Sharbat" [ref=e246] [cursor=pointer]:
+                - /url: /shop/brahmi-squash
+            - paragraph [ref=e247]: ब्राह्मी शरबत
+            - paragraph [ref=e248]: Herbal, sweet, cooling
+            - generic [ref=e249]:
+              - generic [ref=e250]: ₹225₹250
+              - generic [ref=e251]:
+                - button "Add to basket" [ref=e252] [cursor=pointer]
+                - link "Ask about Brahmi Sharbat on WhatsApp" [ref=e253] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Brahmi%20Sharbat.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e256]:
+          - link [ref=e257] [cursor=pointer]:
+            - /url: /shop/buransh-sharbat
+            - img "Buransh Sharbat jar" [ref=e258]
+          - generic [ref=e259]:
+            - heading [level=3] [ref=e260]:
+              - link "Buransh Sharbat" [ref=e261] [cursor=pointer]:
+                - /url: /shop/buransh-sharbat
+            - paragraph [ref=e262]: बुरांश शरबत
+            - paragraph [ref=e263]: Floral, sweet-tart, deep red
+            - generic [ref=e264]:
+              - generic [ref=e265]: Price on WhatsApp
+              - generic [ref=e266]:
+                - button "Add to basket" [ref=e267] [cursor=pointer]
+                - link "Ask about Buransh Sharbat on WhatsApp" [ref=e268] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Buransh%20Sharbat.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e271]:
+          - link [ref=e272] [cursor=pointer]:
+            - /url: /shop/rose-squash
+            - img "Rose Squash jar" [ref=e273]
+          - generic [ref=e274]:
+            - heading [level=3] [ref=e275]:
+              - link "Rose Squash" [ref=e276] [cursor=pointer]:
+                - /url: /shop/rose-squash
+            - paragraph [ref=e277]: रोज़ शरबत
+            - paragraph [ref=e278]: Floral, sweet
+            - generic [ref=e279]:
+              - generic [ref=e280]: ₹225₹250
+              - generic [ref=e281]:
+                - button "Add to basket" [ref=e282] [cursor=pointer]
+                - link "Ask about Rose Squash on WhatsApp" [ref=e283] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Rose%20Squash.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e286]:
+          - link [ref=e287] [cursor=pointer]:
+            - /url: /shop/orange-squash
+            - img "Orange Squash jar" [ref=e288]
+          - generic [ref=e289]:
+            - heading [level=3] [ref=e290]:
+              - link "Orange Squash" [ref=e291] [cursor=pointer]:
+                - /url: /shop/orange-squash
+            - paragraph [ref=e292]: ऑरेंज स्क्वैश
+            - paragraph [ref=e293]: Citrus, sweet
+            - generic [ref=e294]:
+              - generic [ref=e295]: ₹225₹250
+              - generic [ref=e296]:
+                - button "Add to basket" [ref=e297] [cursor=pointer]
+                - link "Ask about Orange Squash on WhatsApp" [ref=e298] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Orange%20Squash.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e301]:
+          - link [ref=e302] [cursor=pointer]:
+            - /url: /shop/lemon-squash
+            - img "Lemon Squash jar" [ref=e303]
+          - generic [ref=e304]:
+            - heading [level=3] [ref=e305]:
+              - link "Lemon Squash" [ref=e306] [cursor=pointer]:
+                - /url: /shop/lemon-squash
+            - paragraph [ref=e307]: लेमन स्क्वैश
+            - paragraph [ref=e308]: Tangy, sweet
+            - generic [ref=e309]:
+              - generic [ref=e310]: ₹225₹250
+              - generic [ref=e311]:
+                - button "Add to basket" [ref=e312] [cursor=pointer]
+                - link "Ask about Lemon Squash on WhatsApp" [ref=e313] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Lemon%20Squash.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e316]:
+          - link [ref=e317] [cursor=pointer]:
+            - /url: /shop/mixed-fruit-jam
+            - img "Mixed Fruit Jam jar" [ref=e318]
+          - generic [ref=e319]:
+            - heading [level=3] [ref=e320]:
+              - link "Mixed Fruit Jam" [ref=e321] [cursor=pointer]:
+                - /url: /shop/mixed-fruit-jam
+            - paragraph [ref=e322]: मिक्स फ्रूट जैम
+            - paragraph [ref=e323]: Sweet, fruity
+            - generic [ref=e324]:
+              - generic [ref=e325]: Price on WhatsApp
+              - generic [ref=e326]:
+                - button "Add to basket" [ref=e327] [cursor=pointer]
+                - link "Ask about Mixed Fruit Jam on WhatsApp" [ref=e328] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Mixed%20Fruit%20Jam.%20Is%20it%20available%20right%20now%3F
+        - article [ref=e331]:
+          - link [ref=e332] [cursor=pointer]:
+            - /url: /shop/milky-dry-petha
+            - img "Milky & Dry Petha jar" [ref=e333]
+          - generic [ref=e334]:
+            - heading [level=3] [ref=e335]:
+              - link "Milky & Dry Petha" [ref=e336] [cursor=pointer]:
+                - /url: /shop/milky-dry-petha
+            - paragraph [ref=e337]: मिल्की ड्राई पेठा
+            - paragraph [ref=e338]: Sweet, soft
+            - generic [ref=e339]:
+              - generic [ref=e340]: Price on WhatsApp
+              - generic [ref=e341]:
+                - button "Add to basket" [ref=e342] [cursor=pointer]
+                - link "Ask about Milky & Dry Petha on WhatsApp" [ref=e343] [cursor=pointer]:
+                  - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I'd%20like%20to%20order%20Milky%20%26%20Dry%20Petha.%20Is%20it%20available%20right%20now%3F
+  - contentinfo [ref=e346]:
+    - generic [ref=e347]:
+      - generic [ref=e348]:
+        - img "RSFP Organic Himachal" [ref=e350]
+        - paragraph [ref=e351]: Packed with love in Sanet ✿
+      - generic [ref=e352]:
+        - heading "Talk to us" [level=2] [ref=e353]
+        - list [ref=e354]:
+          - listitem [ref=e355]:
+            - link "WhatsApp +91 98052 22182" [ref=e356] [cursor=pointer]:
+              - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+          - listitem [ref=e359]:
+            - link "Call +91 98052 22182" [ref=e360] [cursor=pointer]:
+              - /url: tel:+919805222182
+          - listitem [ref=e363]: Mon–Sat, 9 am – 7 pm
+      - generic [ref=e364]:
+        - heading "Find us" [level=2] [ref=e365]
+        - generic [ref=e366]: RS Food ProductsVillage Sanet, P.O. MamlighDistrict Solan, Himachal Pradesh
+      - generic [ref=e367]:
+        - heading "Browse" [level=2] [ref=e368]
+        - list [ref=e369]:
+          - listitem [ref=e370]:
+            - link "All products" [ref=e371] [cursor=pointer]:
+              - /url: /shop
+          - listitem [ref=e372]:
+            - link "Pickles" [ref=e373] [cursor=pointer]:
+              - /url: /shop?c=pickles
+          - listitem [ref=e374]:
+            - link "Squash & sharbat" [ref=e375] [cursor=pointer]:
+              - /url: /shop?c=sharbat
+          - listitem [ref=e376]:
+            - link "Our story" [ref=e377] [cursor=pointer]:
+              - /url: /our-story
+          - listitem [ref=e378]:
+            - link "Contact" [ref=e379] [cursor=pointer]:
+              - /url: /contact
+    - generic [ref=e380]:
+      - generic [ref=e381]: FSSAI Lic. No. 10018022008334
+      - generic [ref=e382]: © 2026 RS Food Products. Made by Neelam Verma & the women of Sanet.
+  - link "Chat with Neelam ji on WhatsApp" [ref=e383] [cursor=pointer]:
+    - /url: https://wa.me/919805222182?text=Namaste%20Neelam%20ji!%20I%20saw%20your%20pickles%20on%20the%20website%20and%20had%20a%20question.
+  - button "Open Next.js Dev Tools" [ref=e391] [cursor=pointer]
